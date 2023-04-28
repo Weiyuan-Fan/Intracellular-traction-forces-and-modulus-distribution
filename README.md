@@ -1,4 +1,2 @@
-# Dot-tracking
-Some codes for dot tracking
-
-Run the codes follwing the order: Pattern_Generation, Dot_Tracking, Traction_Forces
+This is a bunch a images that works without any modify of codes in this repisitory.
+User can start from Dot_Tracking code directly.
