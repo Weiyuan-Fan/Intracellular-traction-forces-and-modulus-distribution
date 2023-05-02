@@ -31,6 +31,7 @@ top = 1000;
 % bottom and top are actually x direction
 I = imread('Noshift17.tif'); % the least deformed image
 pattern = imread('Noshift18.tif'); % the reference image
+pattern = double(pattern);
 pattern_2 = pattern(left:right,bottom:top); 
 I_1 = double(filter2(ones(7,7)/49,I)); 
 I_2 = I_1(left:right,bottom:top); % make I1 the same size as pattern_2 for corr calculation 
