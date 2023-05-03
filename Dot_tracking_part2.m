@@ -226,7 +226,7 @@ subplot(1,2,1)
 imagesc(I0)
 subplot(1,2,2)
 imagesc(I1)
-n = 18;
+n = good_image;
 for j = 1:size(y_c1_d,2)
     patch_1 = I0(round(x_c1_d(j)-D/2):round(x_c1_d(j)+D/2),round(y_c1_d(j)-D/2):round(y_c1_d(j)+D/2));
     patch_2 = I1(round(x_c1_d(j)-D/2-m):round(x_c1_d(j)+D/2+m),round(y_c1_d(j)-D/2-m):round(y_c1_d(j)+D/2+m));  
