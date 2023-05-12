@@ -6,7 +6,7 @@ Images are provided by Katie Bunde in Matrix Mechanotransduction Laboratory at B
 -Put all files under the same file holder.
 
 -Rename all images as "...01", "...02" and so on
-.
+
 -If the images have a drift, run "registration.m" to get rid of the drift.
 
 -Run pattern_generation to create a reference image.
