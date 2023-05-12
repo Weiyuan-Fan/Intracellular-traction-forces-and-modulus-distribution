@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # length unit is micrometer
 # force unit is micronewton
 # pressure unit is megapascal
@@ -248,10 +242,3 @@ c = plot(mu*1e6, title='Shear modulus Pa')
 plt.colorbar(c)
 plt.rcParams.update({'font.size': 14})
 plt.gca().invert_yaxis()
-
-
-# In[ ]:
-
-
-
-
