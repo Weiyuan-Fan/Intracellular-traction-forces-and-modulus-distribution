@@ -43,4 +43,4 @@ figure(1)
 imagesc(pattern)    
 title('pattern')
 axis equal
-%imwrite(pattern, 'myfigure.tif');
+imwrite(pattern, 'myfigure.tif');
