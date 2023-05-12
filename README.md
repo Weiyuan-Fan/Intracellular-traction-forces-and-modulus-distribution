@@ -5,6 +5,7 @@ There is a bunch of images that works without modification of codes in this repi
 Images are provided by Katie Bunde in Matrix Mechanotransduction Laboratory at Boston University. 
 
 Dot Tracking (MATLAB)
+
 -Put all files under the same file holder.
 
 -Rename all images as "...01", "...02" and so on.
@@ -24,6 +25,7 @@ Dot Tracking (MATLAB)
 -Run "distmesh_2d" to generate a mesh for a cell.
 
 Traction forces and modulus distribution (FEniCS) 
+
 -Put "cell.xml" and "celldata.txt" created in Dot tracking part in MATLAB under the same file holder.
 
 -Run "cell_homogeneous.py" in FEniCS to compute the traction forces and modulus distributions for a homogeneous cell.
