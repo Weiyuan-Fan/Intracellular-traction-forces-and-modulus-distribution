@@ -1,5 +1,5 @@
- Put mesh.xml and celldata.txt created in MATLAB under the same file holder
+ Put mesh.xml and celldata.txt created in MATLAB under the same file holder.
  
- cell_homogeneous.py computers the stress and modulus distribution for a homogeneous cell
+ cell_homogeneous.py computers the stress and modulus distribution for a homogeneous cell.
  
- cell_heterogeneous.py uses an iteration method to computer the stress and modulus distribution for a heterogeneous cell
+ cell_heterogeneous.py uses an iteration method to computer the stress and modulus distribution for a heterogeneous cell.
