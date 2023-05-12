@@ -3,7 +3,7 @@
 % find a set of forces that are the closest to the measured forces and
 % also consistent with static equilibrium
 
-% export locations and values of traction forces to a .txt file for later use in FEniCS 
+% export locations and values of traction forces as "celldata.txt" for later use in FEniCS 
 
 % run this after Dot_tracking code
 
