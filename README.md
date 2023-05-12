@@ -1,6 +1,6 @@
 Codes are created by Weiyuan Fan under the direction of Professor Paul Barbone at Boston University.
 
-This is a bunch of images that works without modify of codes in this repisitory.
+There is a bunch of images that works without modify of codes in this repisitory.
 
 Images are provided by Katie Bunde in Matrix Mechanotransduction Laboratory at Boston University. 
 
