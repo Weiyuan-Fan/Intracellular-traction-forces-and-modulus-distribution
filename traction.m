@@ -3,6 +3,8 @@
 % find a set of forces that are the closest to the measured forces and
 % also consistent with static equilibrium
 
+% export locations and values of traction forces to a .txt file for FEniCS 
+
 % run this after Dot_tracking code
 
 % 2023/4/28 - Weiyuan Fan
@@ -87,5 +89,7 @@ axis equal
 legend('with reference correction','without reference correction')
 title('traction force nN')
 
-
+%  export data to .txt
+data = [(y_fix*1.613.*10.^(-1))',(x_fix*1.613.*10.^(-1))',(feY./1e3)',(feX./1e3)'];
+writematrix(data,'celldata.txt','Delimiter','tab')
 
