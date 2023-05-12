@@ -20,6 +20,10 @@ Dot Tracking (MATLAB)
 
 -Run "traction.m".
 
+Mesh Generation (MATLAB)
+
+Run the following codes after running the codes above
+
 -Run "run_distmesh.m" to create a boundary for a cell.
 
 -Run "distmesh_2d" to generate a mesh for a cell.
