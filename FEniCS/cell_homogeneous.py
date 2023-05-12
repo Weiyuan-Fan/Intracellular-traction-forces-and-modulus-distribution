@@ -6,15 +6,15 @@ from mshr import *
 from dolfin import *
 import numpy as np
 import matplotlib.pyplot as plt
-mesh = Mesh("cell6.xml")
+mesh = Mesh("cell.xml")
 #plot(mesh)
 #plt.gca().invert_yaxis() #flip y axis so that it looks the same as the real image
 
 # read the positions and values of the loads from data.txt
-x_p = np.loadtxt("celldata6.txt")[:, 0]
-y_p = np.loadtxt("celldata6.txt")[:, 1]
-f_x = np.loadtxt("celldata6.txt")[:, 2]/5
-f_y = np.loadtxt("celldata6.txt")[:, 3]/5 # put a minus sign because y axis is flipped
+x_p = np.loadtxt("celldata.txt")[:, 0]
+y_p = np.loadtxt("celldata.txt")[:, 1]
+f_x = np.loadtxt("celldata.txt")[:, 2]/5
+f_y = np.loadtxt("celldata.txt")[:, 3]/5 # put a minus sign because y axis is flipped
 
 # patchload 
 class PatchLoad(UserExpression):
