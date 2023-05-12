@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # length unit is micrometer
 # force unit is micronewton
 # pressure unit is megapascal
@@ -116,4 +110,3 @@ cmap = plt.get_cmap('jet')
 plt.set_cmap(cmap)
 plt.rcParams.update({'font.size': 22})
 plt.gca().invert_yaxis()
-
